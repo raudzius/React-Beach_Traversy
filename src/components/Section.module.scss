@@ -1,0 +1,21 @@
+@use 'colors';
+
+.sectionA {
+  padding: 20px;
+  background-color: colors.$primary;
+  color: #fff;
+  text-align: center;
+}
+
+.sectionB {
+  padding: 20px;
+  background-color: colors.$secondary;
+  text-align: center;
+}
+
+.sectionC {
+  display: flex;
+  div {
+    padding: 20px;
+  }
+}

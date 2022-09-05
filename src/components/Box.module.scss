@@ -1,0 +1,11 @@
+@use 'colors';
+
+.box1,
+.box3 {
+  background-color: colors.$primary;
+  color: #fff;
+}
+
+.box2 {
+  background-color: colors.$third;
+}
